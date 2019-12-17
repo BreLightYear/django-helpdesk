@@ -20,8 +20,8 @@ User = get_user_model()
 
 
 class OpenTicketsByUser(Feed):
-    title_template = 'helpdesk/rss/ticket_title.html'
-    description_template = 'helpdesk/rss/ticket_description.html'
+    title_template = 'templates/helpdesk/rss/ticket_title.html'
+    description_template = 'templates/helpdesk/rss/ticket_description.html'
 
     def get_object(self, request, user_name, queue_slug=None):
         user = get_object_or_404(User, username=user_name)
@@ -94,8 +94,8 @@ class OpenTicketsByUser(Feed):
 
 
 class UnassignedTickets(Feed):
-    title_template = 'helpdesk/rss/ticket_title.html'
-    description_template = 'helpdesk/rss/ticket_description.html'
+    title_template = 'templates/helpdesk/rss/ticket_title.html'
+    description_template = 'templates/helpdesk/rss/ticket_description.html'
 
     title = _('Helpdesk: Unassigned Tickets')
     description = _('Unassigned Open and Reopened tickets')
