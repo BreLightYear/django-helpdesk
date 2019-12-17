@@ -23,7 +23,8 @@ SECRET_KEY = '_crkn1+fnzu5$vns_-d+^ayiq%z4k*s!!ag0!mfy36(y!vrazd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sleepy-brook-03385.herokuapp.com']
+ALLOWED_HOSTS = ['sleepy-brook-03385.herokuapp.com',
+                '127.0.0.1']
 
 
 # Application definition
@@ -52,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'demodesk.config.urls'
+ROOT_URLCONF = 'helpdesk.config.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'demodesk.config.wsgi.application'
+WSGI_APPLICATION = 'helpdesk.config.wsgi.application'
 
 
 # django-helpdesk configuration settings
