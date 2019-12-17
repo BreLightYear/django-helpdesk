@@ -22,6 +22,9 @@ argparse = "*"
 pbr = "*"
 mock = "*"
 PySocks = "*"
+django-extensions = "*"
+gunicorn = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.6"
