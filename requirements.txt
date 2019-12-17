@@ -7,3 +7,4 @@ lxml
 simplejson
 pytz
 six
+python=3.6.9
