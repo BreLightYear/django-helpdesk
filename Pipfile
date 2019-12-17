@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django-bootstrap-form = "<4,>=3.3"
+django-markdown-deux = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+simplejson = "*"
+pytz = "*"
+six = "*"
+Django = "<3,>=1.11"
+email_reply_parser = "*"
+pycodestyle = "*"
+codecov = "*"
+coverage = "*"
+argparse = "*"
+pbr = "*"
+mock = "*"
+PySocks = "*"
+
+[requires]
+python_version = "3.6"

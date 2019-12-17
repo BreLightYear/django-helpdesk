@@ -2,6 +2,7 @@ from django.conf import settings
 from django.contrib.auth import views as auth_views
 from django.contrib.auth.views import redirect_to_login
 from django.shortcuts import resolve_url
+from settings import *
 
 
 default_login_view = auth_views.LoginView.as_view(
